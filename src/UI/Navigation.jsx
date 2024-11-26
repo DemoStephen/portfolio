@@ -25,9 +25,9 @@ export default function Navigation() {
   }
   return (
     <nav
-      className={`flex flex-col justify-between bg-black text-slate-400 font-medium w-full ${
-        sideBarWidth ? "lg:w-20" : "lg:w-60"
-      } px-[5%] py-1 lg:px-2 lg:py-4 lg:min-h-screen relative`}
+      className={`flex flex-col justify-between  font-medium w-full ${
+        sideBarWidth ? "lg:w-20" : "lg:w-64"
+      } px-[5%] py-1 lg:px-2 lg:py-4 lg:min-h-screen fixed bottom-0 lg:relative border`}
     >
       <ColapseNavBar
         handleSideBarWidth={handleSideBarWidth}
@@ -35,7 +35,7 @@ export default function Navigation() {
       />
       <section className="flex flex-row lg:flex-col gap-1 lg:gap-4">
         <Me sideBarWidth={sideBarWidth} />
-        <ul className="flex flex-row lg:flex-col w-3/5 lg:w-auto">
+        <ul className="flex flex-row lg:flex-col w-3/5 lg:w-auto lg:border">
           <List
             sideBarWidth={sideBarWidth}
             icon={<HomeIcon />}
@@ -61,7 +61,7 @@ export default function Navigation() {
             index="4"
           />
         </ul>
-        <section className="w-2/5 lg:w-auto">
+        <section className="w-2/5 lg:w-auto lg:border">
           {!sideBarWidth && (
             <h3 className="px-4 py-2 text-slate-50 uppercase text-xs hidden lg:block">
               Resources
@@ -90,7 +90,7 @@ export default function Navigation() {
           </ul>
         </section>
 
-        <section className="w-2/5 hidden lg:w-auto lg:block">
+        <section className="w-2/5 hidden lg:w-auto lg:block lg:border">
           {!sideBarWidth && (
             <h3 className="px-4 py-2 text-slate-50 uppercase text-xs">
               Stay in touch

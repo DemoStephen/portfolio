@@ -3,3 +3,20 @@ https://dashfolio-neo.framer.website/about?via=canvas
 https://www.s-j-zhang.com/
 
 https://nicklewis.dev/
+
+https://spotlight.tailwindui.com/
+
+
+
+Color Palette
+Dark Blue: #2C3E50 (Primary Color - for headers and backgrounds)
+Light Blue: #3498DB (Accent Color - for buttons and highlights)
+Soft Grey: #ECF0F1 (Background Color - for sections)
+Charcoal: #34495E (Text Color - for body text)
+Bright Green: #1ABC9C (Call to Action - for links and important buttons)
+
+Usage Suggestions
+Headers: Dark Blue (#2C3E50)
+Background: Soft Grey (#ECF0F1)
+Buttons: Light Blue (#3498DB) with Bright Green (#1ABC9C) for hover effects
+Text: Charcoal (#34495E) for readability

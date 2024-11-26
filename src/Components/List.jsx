@@ -7,7 +7,7 @@ export default function List({ icon, tagline, index, href, sideBarWidth }) {
           <li
             className={`w-full lg:w-auto p-2 flex justify-center ${
               sideBarWidth ? "" : "lg:justify-between"
-            } items-center content-center hover:text-slate-50 rounded-md border border-transparent hover:border-slate-700 hover:bg-gray-800 transition-all cursor-pointer`}
+            } items-center content-center hover:text-slate-50 border hover:border-slate-700 hover:bg-gray-800 transition-all cursor-pointer`}
           >
             {sideBarWidth ? (
               <p className="flex items-center content-center gap-0.5 lg:gap-2 flex-col lg:flex-row">
@@ -28,9 +28,9 @@ export default function List({ icon, tagline, index, href, sideBarWidth }) {
         </a>
       ) : (
         <li
-          className={`w-full lg:w-auto p-2 flex justify-center ${
+          className={`border w-full lg:w-auto p-2 flex justify-center ${
             sideBarWidth ? "" : "lg:justify-between"
-          } items-center content-center hover:text-slate-50 rounded-md border border-transparent hover:border-slate-700 hover:bg-gray-800 transition-all cursor-pointer`}
+          } items-center content-center hover:text-slate-50 border hover:border-slate-700 hover:bg-gray-800 transition-all cursor-pointer`}
         >
           {sideBarWidth ? (
             <p className="flex items-center content-center gap-0.5 lg:gap-2 flex-col lg:flex-row">
