@@ -1,7 +1,13 @@
+import Header from "./UI/Header";
+import Navigation from "./UI/Navigation";
+import Projects from "./UI/Projects";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Navigation />
+      <Header />
+      <Projects />
     </>
   );
 }
