@@ -5,7 +5,7 @@ import html from "../assets/Image/stacks/html.png";
 import figma from "../assets/Image/stacks/figma.png";
 import js from "../assets/Image/stacks/js.png";
 import css from "../assets/Image/stacks/css.png";
-import tailwind from "../assets/Image/stacks/tailwind.png";
+import tailwind from "../assets/Image/stacks/Tailwind.png";
 
 export function Thoughts() {
   return (
