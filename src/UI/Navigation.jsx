@@ -25,17 +25,18 @@ export default function Navigation() {
   }
   return (
     <nav
-      className={`transition-all flex flex-col justify-between border-dashed font-medium w-full z-50 bg-slate-950 ${
+      style={{ scrollbarWidth: "none" }}
+      className={`flex flex-col justify-between border-dashed font-medium w-full ${
         sideBarWidth ? "lg:w-20" : "lg:w-64"
-      } px-[5%] py-1 lg:px-2 lg:py-4 lg:min-h-screen md:relative border sticky bottom-0`}
+      } px-[5%] py-1 lg:px-2 lg:py-4 lg:min-h-screen sticky md:top-0 bottom-0 lg:relative border lg:overflow-scroll gap-4`}
     >
       <ColapseNavBar
         handleSideBarWidth={handleSideBarWidth}
         sideBarWidth={sideBarWidth}
       />
-      <section className="flex flex-row lg:flex-col gap-1 lg:gap-4">
+      <section className="flex flex-row lg:flex-col gap-0.5 md:gap-1 lg:gap-4">
         <Me sideBarWidth={sideBarWidth} />
-        <ul className="flex flex-row lg:flex-col w-3/5 lg:w-auto border-dashed lg:border">
+        <ul className="w-full lg:w-auto flex flex-row gap-0.5 md:gap-1 lg:flex-col border-dashed lg:border">
           <List
             sideBarWidth={sideBarWidth}
             icon={<HomeIcon />}
@@ -60,15 +61,35 @@ export default function Navigation() {
             tagline="Services"
             index="4"
           />
+          <List
+            sideBarWidth={sideBarWidth}
+            icon={<ProjectsIcon />}
+            tagline="Stack"
+            index="5"
+            view="mobile"
+          />
+          <List
+            sideBarWidth={sideBarWidth}
+            icon={<BlogIcon />}
+            tagline="Blog"
+            index="6"
+            view="mobile"
+          />
+          <List
+            sideBarWidth={sideBarWidth}
+            icon={<AboutIcon />}
+            tagline="Articles"
+            index="7"
+            view="mobile"
+          />
         </ul>
-        <section className="w-2/5 lg:w-auto lg:border border-dashed">
+        <section className="hidden lg:flex flex-col lg:w-auto lg:border border-dashed">
           {!sideBarWidth && (
             <h3 className="px-4 py-2 text-slate-50 uppercase text-xs hidden lg:block">
               Resources
             </h3>
           )}
-
-          <ul className="flex flex-row lg:flex-col">
+          <ul className="flex flex-row gap-0.5 md:gap-1 lg:flex-col">
             <List
               sideBarWidth={sideBarWidth}
               icon={<ProjectsIcon />}

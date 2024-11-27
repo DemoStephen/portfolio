@@ -6,10 +6,11 @@ import figma from "../assets/Image/stacks/figma.png";
 import js from "../assets/Image/stacks/js.png";
 import css from "../assets/Image/stacks/css.png";
 import tailwind from "../assets/Image/stacks/Tailwind.png";
+import { Link } from "react-router-dom";
 
 export function Thoughts() {
   return (
-    <section className="border border-dashed px-[5%] py-[2rem] lg:p-4 lg:rounded-lg lg:mt-8">
+    <section className="lg:w-4/5 lg:mx-[10%] border border-dashed px-[5%] py-[2rem] lg:p-4 lg:rounded-lg lg:mt-8">
       <header>
         <h2 className="text-2xl lg:text-4xl">Thoughts</h2>
         <p>
@@ -23,7 +24,7 @@ export function Thoughts() {
             title="Why the super rich are inevitible"
             tagline={["Business & Finance"]}
           />
-          <Thought title="Why do I need a website?" tagline={["General"]} />
+          <Thought title="Why you need a website?" tagline={["General"]} />
           <Thought
             mobile={true}
             title="How much do we need JavaScript in 2025?"
@@ -43,9 +44,13 @@ export function Thoughts() {
             title="You need both Soft Skill & Hard Skill"
             tagline={["General"]}
           />
-          <button className="p-3 bg-slate-900 hover:bg-slate-950 rounded-lg border lg:col-span-2 border-dashed">
-            See more
-          </button>
+          <span className=" lg:col-span-2">
+            <Link to="/Blog">
+              <button className="p-3 bg-slate-900 hover:bg-slate-950 rounded-lg border border-dashed w-full">
+                See more
+              </button>
+            </Link>
+          </span>
         </section>
       </section>
     </section>
@@ -54,7 +59,7 @@ export function Thoughts() {
 
 export function Stacks() {
   return (
-    <section className="border border-dashed px-[5%] py-[2rem] lg:p-4 lg:rounded-lg lg:mt-8">
+    <section className="lg:w-4/5 lg:mx-[10%] border border-dashed px-[5%] py-[2rem] lg:p-4 lg:rounded-lg lg:mt-8">
       <header>
         <h2 className="text-2xl lg:text-4xl">Stacks</h2>
         <p>Software and resources I use on a regular basis.</p>
@@ -77,9 +82,13 @@ export function Stacks() {
             about="Utility first CSS framework"
           />
 
-          <button className="p-3 bg-slate-900 hover:bg-slate-950 rounded-lg border lg:col-span-2 border-dashed">
-            See more
-          </button>
+          <span className=" lg:col-span-2">
+            <Link to="/Stack">
+              <button className="p-3 bg-slate-900 hover:bg-slate-950 rounded-lg border border-dashed w-full">
+                See more
+              </button>
+            </Link>
+          </span>
         </section>
       </section>
     </section>
