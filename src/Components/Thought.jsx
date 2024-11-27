@@ -2,7 +2,7 @@
 export default function Thought({ mobile, title, tagline }) {
   return (
     <div
-      className={`border py-2 px-4 border-dashed rounded-lg flex cursor-pointer hover:bg-slate-900 ${
+      className={`border border-dashed py-2 px-4 rounded-lg flex cursor-pointer hover:bg-slate-900 ${
         mobile && "lg:flex hidden"
       } flex-col gap-3`}
     >
