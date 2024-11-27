@@ -27,7 +27,7 @@ export default function Navigation() {
     <nav
       className={`transition-all flex flex-col justify-between border-dashed font-medium w-full z-50 bg-slate-950 ${
         sideBarWidth ? "lg:w-20" : "lg:w-64"
-      } px-[5%] py-1 lg:px-2 lg:py-4 lg:min-h-screen lg:relative border`}
+      } px-[5%] py-1 lg:px-2 lg:py-4 lg:min-h-screen md:relative border sticky bottom-0`}
     >
       <ColapseNavBar
         handleSideBarWidth={handleSideBarWidth}
