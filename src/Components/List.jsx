@@ -5,7 +5,7 @@ export default function List({ icon, tagline, index, href, sideBarWidth }) {
       {href ? (
         <a href={href} target="_black">
           <li
-            className={`w-full lg:w-auto p-2 flex justify-center ${
+            className={`w-full lg:w-auto p-2 flex justify-center border-dashed ${
               sideBarWidth ? "" : "lg:justify-between"
             } items-center content-center hover:text-slate-50 border hover:border-slate-700 hover:bg-gray-800 transition-all cursor-pointer`}
           >
@@ -28,7 +28,7 @@ export default function List({ icon, tagline, index, href, sideBarWidth }) {
         </a>
       ) : (
         <li
-          className={`border w-full lg:w-auto p-2 flex justify-center ${
+          className={`border w-full lg:w-auto p-2 flex justify-center border-dashed ${
             sideBarWidth ? "" : "lg:justify-between"
           } items-center content-center hover:text-slate-50 border hover:border-slate-700 hover:bg-gray-800 transition-all cursor-pointer`}
         >

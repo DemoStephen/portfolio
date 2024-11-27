@@ -12,10 +12,10 @@ export default function Header() {
         for businesses around the world.
       </p>
       <div className="flex gap-4 mt-8">
-        <button className="px-8 py-3 rounded-lg bg-slate-800 border">
+        <button className="border-dashed px-8 py-3 rounded-lg bg-slate-800 border">
           About
         </button>
-        <button className="px-8 py-3 rounded-lg border flex items-center gap-2">
+        <button className="border-dashed px-8 py-3 rounded-lg border flex items-center gap-2">
           <Copy /> E-Mail
         </button>
       </div>
