@@ -1,5 +1,11 @@
 import Stack from "../Components/Stack";
 import Thought from "../Components/Thought";
+import react from "../assets/Image/stacks/react.png";
+import html from "../assets/Image/stacks/html.png";
+import figma from "../assets/Image/stacks/figma.png";
+import js from "../assets/Image/stacks/js.png";
+import css from "../assets/Image/stacks/css.png";
+import tailwind from "../assets/Image/stacks/tailwind.png";
 
 export function Thoughts() {
   return (
@@ -45,12 +51,7 @@ export function Thoughts() {
     </section>
   );
 }
-import react from "../assets/Image/stacks/react.png";
-import html from "../assets/Image/stacks/html.png";
-import figma from "../assets/Image/stacks/figma.png";
-import js from "../assets/Image/stacks/js.png";
-import css from "../assets/Image/stacks/css.png";
-import tailwind from "../assets/Image/stacks/tailwind.png";
+
 export function Stacks() {
   return (
     <section className="border border-dashed px-[5%] py-[2rem] lg:p-4 lg:rounded-lg lg:mt-8">
