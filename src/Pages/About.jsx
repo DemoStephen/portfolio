@@ -6,7 +6,7 @@ import { Stacks } from "../UI/HomePreview";
 import Navigation from "../UI/Navigation";
 export default function About() {
   return (
-    <section className="flex relative text-slate-50 justify-start flex-col-reverse md:flex-col lg:flex-row h-screen">
+    <section className="flex relative text-slate-50 justify-start flex-col-reverse md:flex-col lg:flex-row max-h-screen">
       <Navigation />
       <section
         style={{ scrollbarWidth: "none" }}
