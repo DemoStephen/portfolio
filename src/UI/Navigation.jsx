@@ -28,7 +28,7 @@ export default function Navigation() {
       style={{ scrollbarWidth: "none" }}
       className={`flex flex-col justify-between border-dashed font-medium w-full ${
         sideBarWidth ? "lg:w-20" : "lg:w-64"
-      } px-[5%] py-1 lg:px-2 lg:py-4 h-auto lg:min-h-screen relative md:top-0 bottom-0 lg:relative border lg:overflow-scroll gap-4 z-50`}
+      } px-[5%] py-1 lg:px-2 lg:py-4 h-auto lg:min-h-screen fixed md:top-0 bottom-0 lg:relative border lg:overflow-scroll gap-4 z-50`}
     >
       <ColapseNavBar
         handleSideBarWidth={handleSideBarWidth}
