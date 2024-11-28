@@ -20,7 +20,6 @@ const rounter = createBrowserRouter([
   {
     path: "/Home",
     element: <Home />,
-    errorElement: <Error />,
   },
   {
     path: "/About",
