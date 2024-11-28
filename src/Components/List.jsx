@@ -8,6 +8,7 @@ export default function List({
   href,
   sideBarWidth,
   view,
+  hide,
 }) {
   return (
     <>
@@ -39,7 +40,7 @@ export default function List({
         <li
           className={`flex justify-center lg:block w-full border lg:w-auto hover:border-slate-700 hover:bg-gray-800 transition-all cursor-pointer hover:text-slate-50 ${
             !view ? "flex" : "lg:hidden"
-          }`}
+          } ${hide ? "hidden md:flex" : ""}`}
         >
           <Link to={`/${tagline}`}>
             <button
