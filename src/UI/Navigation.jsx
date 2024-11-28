@@ -34,7 +34,7 @@ export default function Navigation() {
         handleSideBarWidth={handleSideBarWidth}
         sideBarWidth={sideBarWidth}
       />
-      <section className="flex flex-row lg:flex-col gap-0.5 md:gap-1 lg:gap-4">
+      <section className="flex flex-row lg:flex-col lg:gap-4">
         <Me sideBarWidth={sideBarWidth} />
         <ul className="w-full lg:w-auto flex flex-row gap-0.5 md:gap-1 lg:flex-col border-dashed lg:border">
           <List
@@ -81,6 +81,7 @@ export default function Navigation() {
             tagline="Articles"
             index="7"
             view="mobile"
+            hide="mobile"
           />
         </ul>
         <section className="hidden lg:flex flex-col lg:w-auto lg:border border-dashed">
