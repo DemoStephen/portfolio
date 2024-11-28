@@ -38,7 +38,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="border mt-8 border-dashed lg:px-[10%] px-[5%] py-12 lg:py-16 flex items-center justify-between">
+    <footer className="border mt-8 border-dashed lg:px-[10%] px-[5%] py-12 lg:py-16 flex items-center justify-between bg-slate-950 md:sticky bottom-0">
       <div>
         <p>
           Currently{" "}
@@ -47,7 +47,7 @@ export default function Footer() {
         <button className="py-2 lg:py-4 text-xl">Reach out</button>
       </div>
 
-      <div className="text-4xl md:text-6xl">{time}</div>
+      <div className="text-3xl md:text-6xl">{time}</div>
     </footer>
   );
 }
