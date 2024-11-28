@@ -84,6 +84,9 @@ export default function Projects() {
             of interest rates, all while offering helpful resources and
             educational content on home financing.
           </Project>
+          <p className="text-center my-8">
+            Project built before July 2024 wasn&apos;t very well-documented :)
+          </p>
         </section>
         <Footer />
       </section>

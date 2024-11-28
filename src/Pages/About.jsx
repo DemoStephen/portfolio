@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import me from "../assets/me_landscape.jpg";
 import CareerExperience from "../Components/CareerExperience";
 import Footer from "../UI/Footer";
@@ -45,9 +46,9 @@ export default function About() {
               <br /> <br />
               I’ve loved making things for as long as I can remember, and wrote
               my{" "}
-              <a href="#" target="_blank" className="text-red-500">
-                first program
-              </a>{" "}
+              <Link to="/Projects">
+                <span className="text-red-500">first program</span>
+              </Link>
               as at march 2024, just two weeks after I started learning Web
               Development.
               <br /> <br />
@@ -57,12 +58,9 @@ export default function About() {
               of a brand, Stephen takes great pride in ensuring every site
               reflects the unique story and essence of its owner.
               <br /> <br />
-              <a href="#" target="_blank" className="text-red-500">
-                Clients
-              </a>{" "}
-              praise Stephen for his unwavering commitment to quality, his
-              attention to detail, and his ability to translate complex ideas
-              into stunning web realities. When he&apos;s not decoding the
+              Clients praise Stephen for his unwavering commitment to quality,
+              his attention to detail, and his ability to translate complex
+              ideas into stunning web realities. When he&apos;s not decoding the
               latest design trends or mastering new programming languages, you
               can find Stephen capturing the beauty of the{" "}
               <a
@@ -80,14 +78,14 @@ export default function About() {
               beautiful together.
             </p>
           </div>
-          <div>
+          <div id="career">
             <h2 className="text-3xl lg:text-5xl mt-8 my-2 lg:my-3 lg:mt-16 uppercase">
               Career
             </h2>
             <p>
               I’m currently working at{" "}
               <a href="#" target="_blank" className="text-red-500">
-                Printivo
+                PrinZadi
               </a>{" "}
               Printing Press. In the years that I&apos;ve been studying and
               working in design. I spent the first two in arts, and the next
