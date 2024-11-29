@@ -4,6 +4,8 @@ import productPage from "../assets/Project/Intermediate/product-list-with-cart-d
 import ubuntuMart from "../assets/Project/Intermediate/ubuntu-mart-desktop.png";
 import calculator from "../assets/Project/Intermediate/calculator-app-desktop.png";
 import mortgage from "../assets/Project/Intermediate/mortgage-repayment-calculator-app-desktop.png";
+import crypto from "../assets/Project/Intermediate/crypto-landing-page-desktop.png";
+
 import Footer from "../UI/Footer";
 import Navigation from "../UI/Navigation";
 export default function Projects() {
@@ -75,6 +77,18 @@ export default function Projects() {
           </Project>
           <Project
             date="July 2024"
+            link="//demostephen.github.io/Crypto/"
+            title="Crypto Landing Page"
+            img={crypto}
+          >
+            This is a unites and secures a growing ecosystem of specialized
+            blockchains called parachains. Apps and services on Polkadot can
+            ecosystem of specialized called. Polkadot unites and secures a
+            growing ecosystem of specialized blockchains called parachains. Apps
+            and services.
+          </Project>
+          <Project
+            date="June 2024"
             link="//calculator-app-eight-wheat.vercel.app/"
             title="Mortgage Calculator"
             img={mortgage}
@@ -84,8 +98,9 @@ export default function Projects() {
             of interest rates, all while offering helpful resources and
             educational content on home financing.
           </Project>
+
           <p className="text-center my-8">
-            Project built before July 2024 wasn&apos;t very well-documented :)
+            Project built before June 2024 wasn&apos;t very well-documented :)
           </p>
         </section>
         <Footer />
