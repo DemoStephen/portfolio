@@ -11,7 +11,8 @@ import TechStacks from "./Pages/TechStacks";
 import BlogPost from "./Pages/BlogPost";
 import Articles from "./Pages/Article";
 import ContactPage from "./Pages/Contacts";
-const rounter = createBrowserRouter([
+
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
@@ -53,6 +54,6 @@ const rounter = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={rounter} />
+    <RouterProvider router={router}></RouterProvider>
   </StrictMode>
 );
