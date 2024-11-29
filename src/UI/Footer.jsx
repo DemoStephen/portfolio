@@ -20,8 +20,8 @@ export default function Footer() {
 
       // Check if the time is between 10:30 PM and 6:30 AM
       if (
-        (hours === 22 && minutes >= 30) ||
-        hours > 22 ||
+        (hours === 23 && minutes >= 30) ||
+        hours > 23 ||
         hours < 6 ||
         (hours === 6 && minutes < 30)
       ) {
@@ -42,7 +42,7 @@ export default function Footer() {
       <div>
         <p>
           Currently{" "}
-          {message ? <span>🧑🏼&zwj;💻 Working </span> : <span>💤 Sleeping</span>}{" "}
+          {message ? <span>🧑🏼&zwj;💻 working </span> : <span>💤 crashed</span>}{" "}
         </p>
         <button className="py-2 lg:py-4 text-xl">Reach out</button>
       </div>
