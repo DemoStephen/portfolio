@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { SeeMoreIcon } from "./SVGs";
 
 export default function Footer() {
   const [message, setMessage] = useState(true);
@@ -44,7 +45,12 @@ export default function Footer() {
           Currently{" "}
           {message ? <span>🧑🏼&zwj;💻 working </span> : <span>💤 crashed</span>}{" "}
         </p>
-        <button className="py-2 lg:py-4 text-xl">Reach out</button>
+        <a href="mailto:adewalestephennifemi@gmail.com">
+          <button className="p-2 text-xl flex items-start gap-2 border border-transparent hover:border-slate-50 border-dashed rounded-lg mt-4">
+            Reach out
+            <SeeMoreIcon />
+          </button>
+        </a>
       </div>
 
       <div className="text-3xl md:text-6xl">{time}</div>

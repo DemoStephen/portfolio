@@ -16,9 +16,11 @@ export default function Header() {
             About
           </button>
         </Link>
-        <button className="border-dashed px-8 py-3 rounded-lg border flex items-center gap-2">
-          <Copy /> E-Mail
-        </button>
+        <a href="mailto:adewalestephennifemi@gmail.com">
+          <button className="border-dashed px-8 py-3 rounded-lg border flex items-center gap-2">
+            <Copy /> E-Mail
+          </button>
+        </a>
       </div>
     </header>
   );
