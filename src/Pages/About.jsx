@@ -25,7 +25,7 @@ export default function About() {
           <img
             src={me}
             alt="me"
-            className="my-16 rounded-lg w-full lg:scale-105 lg:hover:scale-110 transition-all"
+            className="my-16 rounded-lg lg:w-4/5 m-auto lg:scale-105 lg:hover:scale-110 transition-all"
           />
           <div>
             <h2 className="text-3xl lg:text-5xl my-2 lg:my-3 uppercase">Me</h2>
@@ -73,9 +73,9 @@ export default function About() {
               through his photography.
               <br />
               <br />
-              Choosing Stephen Adewale means choosing a vision, a passion, and a
-              commitment to digital excellence. Let&apos;s build something
-              beautiful together.
+              Choosing Stephen Adewale means choosing a <b>vision</b>, a
+              <b>passion</b>, and a commitment to digital excellence. Let&apos;s
+              build something beautiful together.
             </p>
           </div>
           <div id="career">
@@ -87,21 +87,32 @@ export default function About() {
               <a href="#" target="_blank" className="text-red-500">
                 PrinZadi
               </a>{" "}
-              Printing Press. In the years that I&apos;ve been studying and
-              working in design. I spent the first two in arts, and the next
-              four years trying my hands in different design practices. In this
-              years, I focused on designing and developing software products.
-              I’ve worked in large design teams as well as performed as the sole
-              developer for startups. If you are interested to know more, you
-              can find me on{" "}
-              <a href="#" target="_blank" className="text-red-500">
+              Printing Press. In my experiences that I&apos;ve been studying and
+              working in design. In this years, I focused on designing and
+              developing software products. I’ve worked in large design teams as
+              well as performed as the sole developer for startups. If you are
+              interested to know more, you can find me on{" "}
+              <a
+                href="//www.linkedin.com/in/codewithstephen/"
+                target="_blank"
+                className="text-red-500"
+              >
                 Linkedin
               </a>
               . I’ve also added a summary below.
             </p>
             <section className="mt-8 flex justify-center flex-col items-center gap-8 ">
               <section className="flex flex-col items-center gap-8 lg:w-[90%]">
-                <CareerExperience />
+                <CareerExperience
+                  date="Jan 2025 - Present"
+                  description="PrintZadi"
+                  post="FRONTEND DEVELOPER(LEAD)"
+                />
+                <CareerExperience
+                  date="Mar 2024 - Present"
+                  description="Cr8ive Xpats"
+                  post="CREATIVE FRONTEND ENGINEER"
+                />
               </section>
               <p className="text-center text-sm md:text-base">
                 Career experiences before 2024 wasn&apos;t very well-documented
