@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable react/prop-types */
 export default function Thought({ mobile, title, tagline }) {
   return (
@@ -7,7 +9,7 @@ export default function Thought({ mobile, title, tagline }) {
       } flex-col gap-3`}
     >
       <h3 className="text-xl">{title}</h3>
-      <p className="flex gap-2">
+      <p className="flex gap-2 items-center">
         {tagline.map((tag) => {
           return (
             <span
@@ -18,9 +20,11 @@ export default function Thought({ mobile, title, tagline }) {
             </span>
           );
         })}
-        <span className="px-2 py-1 border rounded-2xl hover:bg-slate-800 border-dashed">
-          Blog
-        </span>
+        <Link to="/Blog">
+          <span className="px-2 py-1 border rounded-2xl hover:bg-slate-800 border-dashed">
+            Blog
+          </span>
+        </Link>
       </p>
     </div>
   );
