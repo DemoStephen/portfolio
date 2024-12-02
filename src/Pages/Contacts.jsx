@@ -1,5 +1,7 @@
 import Footer from "../UI/Footer";
+import Form from "../UI/Form";
 import Navigation from "../UI/Navigation";
+import StayInTouch from "../UI/StayInTouch";
 import { Copy } from "../UI/SVGs";
 
 export default function ContactPage() {
@@ -28,6 +30,10 @@ export default function ContactPage() {
             </a>
           </div>
         </header>
+
+        <Form />
+
+        <StayInTouch />
 
         <Footer />
       </section>
