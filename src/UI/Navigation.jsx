@@ -70,10 +70,18 @@ export default function Navigation() {
           />
           <List
             sideBarWidth={sideBarWidth}
+            icon={<Contact />}
+            tagline="Contact"
+            index="C"
+            view="mobile"
+          />
+          <List
+            sideBarWidth={sideBarWidth}
             icon={<BlogIcon />}
             tagline="Blog"
             index="6"
             view="mobile"
+            hide="mobile"
           />
           <List
             sideBarWidth={sideBarWidth}
