@@ -1,7 +1,6 @@
 import Footer from "../UI/Footer";
 import Navigation from "../UI/Navigation";
-import TechStack from "../UI/TechStack";
-import { STACKS } from "../util";
+import TechStacksPreview from "../UI/TechStacksPreview";
 
 export default function TechStacks() {
   return (
@@ -17,17 +16,7 @@ export default function TechStacks() {
             Tools, resources and software i use daily
           </p>
         </header>
-        <section className="flex flex-col gap-8 px-[5%] lg:px-[10%]">
-          {STACKS.map((stack) => {
-            return (
-              <TechStack
-                key={stack.title}
-                title={stack.title}
-                stack={stack.stack}
-              />
-            );
-          })}
-        </section>
+        <TechStacksPreview />
         <Footer />
       </section>
     </section>
