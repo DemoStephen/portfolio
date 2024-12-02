@@ -1,5 +1,5 @@
-import figma from "./assets/Image/stacks/figma.png";
-import photoshop from "./assets/Image/stacks/photoshop.png";
+import figma from "../assets/Image/stacks/figma.png";
+import photoshop from "../assets/Image/stacks/photoshop.png";
 export const STACKS = [
   {
     title: "Design",
