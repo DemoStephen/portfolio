@@ -1,18 +1,46 @@
 import figma from "../assets/Image/stacks/figma.png";
 import photoshop from "../assets/Image/stacks/photoshop.png";
+import react from "../assets/Image/stacks/react.png";
+import tailwind from "../assets/Image/stacks/Tailwind.png";
+import sass from "../assets/Image/stacks/sass.png";
+import github from "../assets/Image/stacks/github.png";
+import html from "../assets/Image/stacks/html.png";
+import css from "../assets/Image/stacks/css.png";
+import js from "../assets/Image/stacks/js.png";
+
 export const STACKS = [
   {
-    title: "Design",
+    title: "Frontend",
     stack: [
       {
-        image: figma,
-        name: "Figma",
-        about: "Design tool",
+        image: react,
+        name: "React",
+        about: "Javascript Library",
       },
       {
-        image: photoshop,
-        name: "Photoshop",
-        about: "Image Editing Software",
+        image: tailwind,
+        name: "Tailwind CSS",
+        about: "CSS Framework",
+      },
+      {
+        image: sass,
+        name: "SASS",
+        about: "CSS Preprocessor",
+      },
+      {
+        image: html,
+        name: "HTML",
+        about: "Website Skelenton",
+      },
+      {
+        image: css,
+        name: "CSS",
+        about: "Cascading Style Sheets",
+      },
+      {
+        image: js,
+        name: "Javascript",
+        about: "Programming Language for the web",
       },
     ],
   },
@@ -29,8 +57,29 @@ export const STACKS = [
         name: "Git",
         about: "Version Control system",
       },
+      {
+        image: figma,
+        name: "NPM",
+        about: "Package Installer",
+      },
     ],
   },
+  {
+    title: "Design",
+    stack: [
+      {
+        image: figma,
+        name: "Figma",
+        about: "Design tool",
+      },
+      {
+        image: photoshop,
+        name: "Photoshop",
+        about: "Image Editing Software",
+      },
+    ],
+  },
+
   {
     title: "Productivity",
     stack: [
@@ -39,8 +88,14 @@ export const STACKS = [
         name: "Slack",
         about: "Collaboration",
       },
+      {
+        image: github,
+        name: "Github",
+        about: "Collaboration",
+      },
     ],
   },
+
   {
     title: "Artificial Intelligence",
     stack: [
