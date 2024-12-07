@@ -12,6 +12,7 @@ export default function TechStack({ title, stack }) {
                 key={info.name}
                 image={info.image}
                 name={info.name}
+                invert={info.name === "Github"}
                 about={info.about}
               />
             );
