@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Thought({ mobile, title, tagline }) {
   return (
     <div
-      className={`border border-dashed py-2 px-4 rounded-lg flex cursor-pointer hover:bg-slate-900 ${
+      className={`border border-dashed py-2 md:py-3 lg:py-4 xl:py-5 px-4 rounded-lg flex cursor-pointer hover:bg-slate-800 ${
         mobile && "lg:flex hidden"
       } flex-col gap-3`}
     >
@@ -14,14 +14,14 @@ export default function Thought({ mobile, title, tagline }) {
           return (
             <span
               key={tag}
-              className="px-2 py-1 border rounded-2xl hover:bg-slate-800 border-dashed"
+              className="px-2 md:px-4 py-1 md:py-2 border rounded-2xl md:rounded-3xl hover:bg-slate-800 border-dashed"
             >
               {tag}
             </span>
           );
         })}
         <Link to="/Blog">
-          <span className="px-2 py-1 border rounded-2xl hover:bg-slate-800 border-dashed">
+          <span className="px-2 md:px-4 py-1 md:py-2 border rounded-2xl md:rounded-3xl hover:bg-slate-800 border-dashed">
             Blog
           </span>
         </Link>
