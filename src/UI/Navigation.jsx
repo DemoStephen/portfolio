@@ -27,8 +27,8 @@ export default function Navigation() {
     <nav
       style={{ scrollbarWidth: "none" }}
       className={`flex flex-col justify-between border-dashed font-medium w-full ${
-        sideBarWidth ? "lg:w-20" : "lg:w-64"
-      } px-[5%] py-1 lg:px-2 lg:py-4 h-auto lg:min-h-screen  bg-slate-950 sticky md:top-0 bottom-0 lg:relative border lg:overflow-scroll gap-4 z-50 transition-all`}
+        sideBarWidth ? "lg:w-20" : "lg:w-64 xl:w-72 2xl:w-1/5"
+      } px-[5%] py-1 lg:px-2 lg:py-4 h-auto lg:min-h-screen sticky md:top-0 bottom-0 lg:relative border lg:overflow-scroll gap-4 z-50 transition-all`}
     >
       <ColapseNavBar
         handleSideBarWidth={handleSideBarWidth}
@@ -94,7 +94,7 @@ export default function Navigation() {
         </ul>
         <section className="hidden lg:flex flex-col lg:w-auto lg:border border-dashed">
           {!sideBarWidth && (
-            <h3 className="px-4 py-2 text-slate-50 uppercase text-xs hidden lg:block">
+            <h3 className="px-4 py-2 lg:py-3 xl:py-4 text-slate-50 uppercase text-xs hidden lg:block">
               Resources
             </h3>
           )}
@@ -122,7 +122,7 @@ export default function Navigation() {
 
         <section className="w-2/5 hidden lg:w-auto lg:block border-dashed lg:border">
           {!sideBarWidth && (
-            <h3 className="px-4 py-2 text-slate-50 uppercase text-xs">
+            <h3 className="px-4 py-2 lg:py-3 xl:py-4 text-slate-50 uppercase text-xs">
               Stay in touch
             </h3>
           )}

@@ -31,7 +31,7 @@ export default function Form() {
         placeholder="Message"
         className="min-h-40 rounded-lg bg-transparent border p-4"
       ></textarea>
-      <button type="submit" className="border p-4 rounded-lg">
+      <button type="submit" className="border p-4 rounded-lg hover:bg-slate-800">
         Send Message
       </button>
     </form>

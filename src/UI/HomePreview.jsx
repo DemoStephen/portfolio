@@ -46,7 +46,7 @@ export function Thoughts() {
           />
           <span className=" lg:col-span-2">
             <Link to="/Blog">
-              <button className="p-3 bg-slate-900 hover:bg-slate-950 rounded-lg border border-dashed w-full">
+              <button className="p-3 bg-slate-900 hover:bg-slate-800 rounded-lg border border-dashed w-full">
                 See more
               </button>
             </Link>
@@ -84,7 +84,7 @@ export function Stacks() {
 
           <span className=" lg:col-span-2">
             <Link to="/Stack">
-              <button className="p-3 bg-slate-900 hover:bg-slate-950 rounded-lg border border-dashed w-full">
+              <button className="p-3 bg-slate-900 hover:bg-slate-800 rounded-lg border border-dashed w-full">
                 See more
               </button>
             </Link>

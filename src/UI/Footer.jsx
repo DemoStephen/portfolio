@@ -39,7 +39,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="border mt-8 border-dashed lg:px-[10%] px-[5%] py-12 lg:py-16 flex items-center justify-between bg-slate-950 md:sticky bottom-0">
+    <footer className="border mt-8 border-dashed lg:px-[10%] px-[5%] py-12 lg:py-16 flex items-center justify-between bg-slate-900 lg:sticky bottom-0">
       <div>
         <p>
           Currently{" "}

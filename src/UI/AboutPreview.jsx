@@ -78,20 +78,22 @@ export default function AboutPreview() {
           . I’ve also added a summary below.
         </p>
       </header>
-      <section className="mt-8 flex justify-center flex-col items-center gap-8 ">
-        <section className="flex flex-col items-center gap-8 lg:w-[90%]">
+      <section className="text-slate-50 bg-slate-800 py-8 rounded-lg my-8 flex justify-center flex-col items-center gap-8 ">
+        <section className="flex flex-col gap-8 px-[5%] lg:px-0 lg:w-[90%]">
           <CareerExperience
             date="Jan 2025 - Present"
             description="PrintZadi"
             post="FRONTEND DEVELOPER(LEAD)"
+            role="Designed user interfaces for web applications that provided an intuitive experience for users while meetingfunctional requirements."
           />
           <CareerExperience
             date="Mar 2024 - Present"
             description="Cr8ive Xpats"
             post="CREATIVE FRONTEND ENGINEER"
+            role="I worked/works as a frontend developer with the responsibility of building, maintaining and managing the websites with a team of Creative developers."
           />
         </section>
-        <p className="text-center text-sm md:text-base">
+        <p className="text-center text-sm md:text-base px-8">
           Career experiences before 2024 wasn&apos;t very well-documented :)
         </p>
       </section>
