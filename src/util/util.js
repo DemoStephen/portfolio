@@ -7,6 +7,12 @@ import github from "../assets/Image/stacks/github.png";
 import html from "../assets/Image/stacks/html.png";
 import css from "../assets/Image/stacks/css.png";
 import js from "../assets/Image/stacks/js.png";
+import vscode from "../assets/Image/stacks/vscode.png";
+import git from "../assets/Image/stacks/git.png";
+import npm from "../assets/Image/stacks/npm.png";
+import gpt from "../assets/Image/stacks/gpt.png";
+import poe from "../assets/Image/stacks/poe.svg";
+import slack from "../assets/Image/stacks/slack.png";
 
 export const STACKS = [
   {
@@ -48,17 +54,17 @@ export const STACKS = [
     title: "Development",
     stack: [
       {
-        image: figma,
+        image: vscode,
         name: "VS Code",
         about: "Code Editor",
       },
       {
-        image: figma,
+        image: git,
         name: "Git",
         about: "Version Control system",
       },
       {
-        image: figma,
+        image: npm,
         name: "NPM",
         about: "Package Installer",
       },
@@ -84,7 +90,7 @@ export const STACKS = [
     title: "Productivity",
     stack: [
       {
-        image: figma,
+        image: slack,
         name: "Slack",
         about: "Collaboration",
       },
@@ -100,12 +106,12 @@ export const STACKS = [
     title: "Artificial Intelligence",
     stack: [
       {
-        image: figma,
+        image: gpt,
         name: "ChatGPT",
         about: "OpenAI",
       },
       {
-        image: figma,
+        image: poe,
         name: "Poe",
         about: "Virtual Assistant",
       },
