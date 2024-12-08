@@ -10,10 +10,10 @@ export default function ContactPage() {
       <Navigation />
       <section
         style={{ scrollbarWidth: "none" }}
-        className="lg:pt-16 w-full border border-dashed max-h-screen overflow-scroll snap-none"
+        className="lg:pt-16 w-full md:border border-dashed max-h-screen overflow-scroll snap-none"
       >
         <header className="mb-8 px-[5%] lg:px-[10%]">
-          <h1 className="text-3xl lg:text-5xl my-2 lg:my-3">Contact</h1>
+          <h1 className="text-4xl lg:text-5xl my-2 lg:my-3">Contact</h1>
           <p className="lg:text-xl">
             Whether it is a website project, low-carbon initiative, podcast
             appearance, or a digital sustainability-related question, I’d love

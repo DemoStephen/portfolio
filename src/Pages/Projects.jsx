@@ -7,7 +7,7 @@ export default function Projects() {
       <Navigation />
       <section
         style={{ scrollbarWidth: "none" }}
-        className="lg:pt-16 pt-8 w-full border border-dashed h-auto overflow-scroll snap-none"
+        className="lg:pt-16 pt-8 w-full md:border border-dashed h-auto overflow-scroll snap-none"
       >
         <header className="pb-16 px-[5%] md:px-[10%]">
           <h2 className="text-4xl lg:text-5xl my-2 lg:my-3">Projects</h2>

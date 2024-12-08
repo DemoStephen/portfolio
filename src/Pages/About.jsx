@@ -9,10 +9,10 @@ export default function About() {
       <Navigation />
       <section
         style={{ scrollbarWidth: "none" }}
-        className="lg:pt-16 pt-8 w-full border border-dashed h-auto overflow-scroll snap-none"
+        className="lg:pt-16 pt-8 w-full md:border border-dashed h-auto overflow-scroll snap-none"
       >
         <header className="pb-16 px-[5%] lg:px-[10%]">
-          <h1 className="text-3xl lg:text-5xl my-2 lg:my-3">About Stephen</h1>
+          <h1 className="text-4xl lg:text-5xl my-2 lg:my-3">About Stephen</h1>
           <p className="lg:text-xl">
             I started developing websites on the 4th of march 2024. This
             followed on from a few months of designing for print and web as a
