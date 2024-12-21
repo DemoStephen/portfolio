@@ -9,12 +9,24 @@ export default function StayInTouch() {
         <p>I&apos;m most active on twitter</p>
       </header>
       <div className="flex items-center gap-4">
-        <button className="rounded-lg py-3 px-4 border flex items-center gap-2">
-          <Twitter /> Twitter
-        </button>
-        <button className="rounded-lg py-3 px-4 border flex items-center gap-2">
-          <LinkedIn /> LinkedIn
-        </button>
+        <a
+          href="https://x.com/codewithstephen"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="rounded-lg py-3 px-4 border flex items-center gap-2">
+            <Twitter /> Twitter
+          </button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/codewithstephen/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="rounded-lg py-3 px-4 border flex items-center gap-2">
+            <LinkedIn /> LinkedIn
+          </button>
+        </a>
         <DownloadButton />
       </div>
     </section>
