@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
-
 /* eslint-disable react/prop-types */
-export default function Stack({ image, name, about, invert }) {
+export default function Stack({ image, name, about, invert, link }) {
   return (
-    <Link to="/Stack">
+    <a href={link} target="_blank">
       <div className="flex items-center gap-4 border p-2 md:py-3 lg:py-4 xl:py-5 rounded-lg border-dashed cursor-pointer hover:bg-slate-800">
         <img
           src={image}
@@ -15,6 +13,6 @@ export default function Stack({ image, name, about, invert }) {
           <p className="text-sm text-slate-400">{about}</p>
         </div>
       </div>
-    </Link>
+    </a>
   );
 }

@@ -14,6 +14,7 @@ export default function TechStack({ title, stack }) {
                 name={info.name}
                 invert={info.name === "Github"}
                 about={info.about}
+                link={info.link}
               />
             );
           })}
