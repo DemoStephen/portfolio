@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable react/prop-types */
 export default function Service({ heading, text, img }) {
   return (
@@ -7,9 +9,11 @@ export default function Service({ heading, text, img }) {
         <h3 className="text-3xl mb-4">{heading}</h3>
         <p>{text}</p>
       </header>
-      <button className="py-3 px-5 rounded-3xl border border-dashed">
-        Find out more
-      </button>
+      <Link to="/Blog">
+        <button className="py-3 px-5 rounded-3xl border border-dashed">
+          Find out more
+        </button>
+      </Link>
     </section>
   );
 }

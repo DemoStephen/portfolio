@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Service from "../Components/Service";
 import damn from "../assets/Image/stacks/react.png";
 export default function ServicesPreview() {
@@ -28,9 +29,11 @@ export default function ServicesPreview() {
             charities, as well as a number of side projects.
           </p>
         </header>
-        <button className="py-3 px-5 rounded-3xl border border-dashed">
-          View work
-        </button>
+        <Link to="/Projects">
+          <button className="py-3 px-5 rounded-3xl border border-dashed">
+            View work
+          </button>
+        </Link>
       </section>
       <section className="border border-dashed p-4 rounded-lg lg:col-span-2">
         <header className="my-5">
@@ -40,9 +43,11 @@ export default function ServicesPreview() {
             I&apos;d love to talk to you about your idea.
           </p>
         </header>
-        <button className="py-3 px-5 rounded-3xl border border-dashed">
-          Get in touch
-        </button>
+        <Link to="/Contact">
+          <button className="py-3 px-5 rounded-3xl border border-dashed">
+            Get in touch
+          </button>
+        </Link>
       </section>
     </section>
   );
