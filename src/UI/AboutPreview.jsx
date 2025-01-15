@@ -60,14 +60,12 @@ export default function AboutPreview() {
         </h2>
         <p>
           I’m currently working at{" "}
-          <a href="#" target="_blank" className="text-red-500">
-            PrinZadi
-          </a>{" "}
-          Printing Press. In my experiences that I&apos;ve been studying and
-          working in design. In this years, I focused on designing and
-          developing software products. I’ve worked in large design teams as
-          well as performed as the sole developer for startups. If you are
-          interested to know more, you can find me on{" "}
+          <span className="text-red-500">PrinZadi</span> Printing Press. In my
+          experiences that I&apos;ve been studying and working in design. In
+          this years, I focused on designing and developing software products.
+          I’ve worked in large design teams as well as performed as the sole
+          developer for startups. If you are interested to know more, you can
+          find me on{" "}
           <a
             href="//www.linkedin.com/in/codewithstephen/"
             target="_blank"
@@ -82,12 +80,18 @@ export default function AboutPreview() {
         <section className="flex flex-col gap-8 px-[5%] lg:px-0 lg:w-[90%]">
           <CareerExperience
             date="Jan 2025 - Present"
+            description="Poswa law Firm"
+            post="CREATIVE FRONTEND DEVELOPER"
+            role="I worked/works as a creative frontend developer with the responsibility of building, maintaining and managing the websites."
+          />
+          <CareerExperience
+            date="Dec 2024 - Present"
             description="PrintZadi"
             post="FRONTEND DEVELOPER(LEAD)"
             role="Designed user interfaces for web applications that provided an intuitive experience for users while meetingfunctional requirements."
           />
           <CareerExperience
-            date="Mar 2024 - Present"
+            date="Mar 2024 - Oct 2024"
             description="Cr8ive Xpats"
             post="CREATIVE FRONTEND ENGINEER"
             role="I worked/works as a frontend developer with the responsibility of building, maintaining and managing the websites with a team of Creative developers."
