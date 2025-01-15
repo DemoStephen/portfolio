@@ -22,7 +22,7 @@ export const STACKS = [
         image: react,
         name: "React",
         about: "Javascript Library",
-        link: "//:",
+        link: "//",
       },
       {
         image: tailwind,
