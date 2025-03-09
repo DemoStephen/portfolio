@@ -11,44 +11,51 @@ import TechStacks from "./Pages/TechStacks";
 import BlogPost from "./Pages/BlogPost";
 import Articles from "./Pages/Article";
 import ContactPage from "./Pages/Contacts";
+import Layout from "./Layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Layout />,
     errorElement: <Error />,
-  },
-  {
-    path: "/Home",
-    element: <Home />,
-  },
-  {
-    path: "/About",
-    element: <About />,
-  },
-  {
-    path: "/Projects",
-    element: <Projects />,
-  },
-  {
-    path: "/Services",
-    element: <Services />,
-  },
-  {
-    path: "/Stack",
-    element: <TechStacks />,
-  },
-  {
-    path: "/Blog",
-    element: <BlogPost />,
-  },
-  {
-    path: "/Articles",
-    element: <Articles />,
-  },
-  {
-    path: "/Contact",
-    element: <ContactPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/Home",
+        element: <Home />,
+      },
+      {
+        path: "/About",
+        element: <About />,
+      },
+      {
+        path: "/Projects",
+        element: <Projects />,
+      },
+      {
+        path: "/Services",
+        element: <Services />,
+      },
+      {
+        path: "/Stack",
+        element: <TechStacks />,
+      },
+      {
+        path: "/Blog",
+        element: <BlogPost />,
+      },
+      {
+        path: "/Articles",
+        element: <Articles />,
+      },
+      {
+        path: "/Contact",
+        element: <ContactPage />,
+      },
+    ],
   },
 ]);
 
