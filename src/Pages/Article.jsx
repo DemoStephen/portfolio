@@ -1,4 +1,3 @@
-import Footer from "../UI/Footer";
 
 export default function Articles() {
   return (
@@ -9,7 +8,6 @@ export default function Articles() {
           A Selection of ideas and thoughts to inspire, learn, and create.
         </p>
       </header>
-      <Footer />
     </>
   );
 }

@@ -1,4 +1,3 @@
-import Footer from "../UI/Footer";
 import ServicesPreview from "../UI/ServicesPreview";
 
 export default function Services() {
@@ -14,7 +13,6 @@ export default function Services() {
         </p>
       </header>
       <ServicesPreview />
-      <Footer />
     </>
   );
 }

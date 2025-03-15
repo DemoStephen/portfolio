@@ -1,4 +1,3 @@
-import Footer from "../UI/Footer";
 import Header from "../UI/Header";
 import { Stacks, Thoughts } from "../UI/HomePreview";
 export default function Home() {
@@ -7,7 +6,6 @@ export default function Home() {
       <Header />
       <Thoughts />
       <Stacks />
-      <Footer />
     </>
   );
 }

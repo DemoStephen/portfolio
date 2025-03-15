@@ -1,4 +1,3 @@
-import Footer from "../UI/Footer";
 import TechStacksPreview from "../UI/TechStacksPreview";
 
 export default function TechStacks() {
@@ -9,7 +8,6 @@ export default function TechStacks() {
         <p className="lg:text-xl">Tools, resources and software I use daily</p>
       </header>
       <TechStacksPreview />
-      <Footer />
     </>
   );
 }

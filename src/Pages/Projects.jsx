@@ -1,4 +1,3 @@
-import Footer from "../UI/Footer";
 import ProjectPreview from "../UI/ProjectsPreview";
 export default function Projects() {
   return (
@@ -18,7 +17,6 @@ export default function Projects() {
         </p>
       </header>
       <ProjectPreview />
-      <Footer />
     </>
   );
 }

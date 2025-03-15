@@ -1,4 +1,3 @@
-import Footer from "../UI/Footer";
 
 export default function BlogPost() {
   return (
@@ -11,7 +10,6 @@ export default function BlogPost() {
           tutorials, thought pieces, and occasional news.
         </p>
       </header>
-      <Footer />
     </>
   );
 }

@@ -1,4 +1,3 @@
-import Footer from "../UI/Footer";
 import Form from "../UI/Form";
 import StayInTouch from "../UI/StayInTouch";
 import { Copy } from "../UI/SVGs";
@@ -29,7 +28,6 @@ export default function ContactPage() {
 
       <StayInTouch />
 
-      <Footer />
     </>
   );
 }

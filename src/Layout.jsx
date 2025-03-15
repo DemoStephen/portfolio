@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navigation from "./UI/Navigation";
 import me from "./assets/me.jpg";
+import Footer from "./UI/Footer";
 export default function Layout() {
   return (
     <>
@@ -22,6 +23,7 @@ export default function Layout() {
             </div>
           </nav>
           <Outlet />
+          <Footer />
         </main>
       </section>
     </>

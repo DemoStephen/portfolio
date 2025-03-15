@@ -1,5 +1,4 @@
 import me from "../assets/me_landscape.jpg";
-import Footer from "../UI/Footer";
 import { Stacks } from "../UI/HomePreview";
 import AboutPreview from "../UI/AboutPreview";
 export default function About() {
@@ -22,7 +21,6 @@ export default function About() {
       </header>
       <AboutPreview />
       <Stacks />
-      <Footer />
     </>
   );
 }
