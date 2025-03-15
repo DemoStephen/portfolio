@@ -12,7 +12,7 @@ export default function Projects() {
             </a>
           </span>
           . Before that, I worked on a few personal coding projects, freelance
-          and in-house design jobs. Between early 2024 and early 2025 I worked
+          and in-house design jobs. Between early 2024 and today I worked
           on a variety of creative projects.
         </p>
       </header>

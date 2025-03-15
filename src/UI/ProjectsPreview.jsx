@@ -1,4 +1,5 @@
 import Project from "../UI/Project";
+import conference from "../assets/Project/Intermediate/conference-ticket-generator-website-desktop.png";
 import spaceTourism from "../assets/Project/Intermediate/space-tourism-website-desktop.png";
 import productPage from "../assets/Project/Intermediate/product-list-with-cart-desktop.png";
 import ubuntuMart from "../assets/Project/Intermediate/ubuntu-mart-desktop.png";
@@ -8,6 +9,16 @@ import crypto from "../assets/Project/Intermediate/crypto-landing-page-desktop.p
 export default function ProjectPreview() {
   return (
     <section className="px-[5%] md:px-[10%]">
+      <Project
+        date="December 2024"
+        link="//conference-ticket-generator-pink.vercel.app/"
+        title="Conference Ticket Generator"
+        img={conference}
+      >
+        A conference ticket generator website that enables event organizers to
+        create customizable, secure digital and printable tickets with attendee
+        details and seamless distribution through email.
+      </Project>
       <Project
         date="November 2024"
         link="//codewithstephenspace-tourism.vercel.app/"
